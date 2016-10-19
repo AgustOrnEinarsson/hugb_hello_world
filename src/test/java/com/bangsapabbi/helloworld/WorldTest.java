@@ -11,4 +11,10 @@ public class WorldTest {
         World world = new World();
         assertEquals("Hello world!", world.greet()); }
 
+	@Test
+	public void greetResultsInHello2() {
+        	World world = new World();
+        assertEquals("Hello worl!", world.greet()); }
+
+
 }
